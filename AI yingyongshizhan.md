@@ -26,11 +26,14 @@ ROC曲线和AUC(Area under Curve)
 
 混淆矩阵
 
-![截屏2024-06-12 16.11.30](/Users/qiupengchao/Desktop/%E6%88%AA%E5%B1%8F2024-06-12%2016.11.30.png)
+
 
 5.聚类算法
 
 KMeans（ 手肘图确定K）,层次聚类，密度聚类等
+![截屏2024-06-12 16 27 30](https://github.com/Vincent2015/ailearning/assets/6760575/55ae3087-a71e-4aad-8f1d-a9f5f973d970)
+![截屏2024-06-12 16 11 30](https://github.com/Vincent2015/ailearning/assets/6760575/9a1b0d4a-ba4a-495b-b79f-77c06fb71e31)
+![截屏2024-06-12 16 17 41](https://github.com/Vincent2015/ailearning/assets/6760575/b68a1bd1-568e-4ffe-b809-3b743aa830ef)
 
 6.降维算法PCA(找到数据的主成分-新特征 无监督学习) ，线性判别分析LDA（监督学习），线性判别分析t-SNE
 
