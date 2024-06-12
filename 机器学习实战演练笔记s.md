@@ -32,7 +32,9 @@ sns.countplot(x='是否转化',data=df_fission)
 
 贝叶斯回归(使用贝叶斯推理的线性回归)，SVM回归（分为核SVM和？svm）, 决策树（CART classification and regression），随机森林，AdaBoost和XGBOoost等Boosting 方法的集成算法（梯度提升），神经网络DNN —等等
 
-13,通过特征选择（除了数据分析观察，可以通过sklearn的SelectBest自动选择特征的方法来自动选择特征，除了SelectBest,还有RFE工具，SelectFromModel工具，SequentialFeature selector工具等。最后还可以通过PCA,LDA的降维算法进行数据特征选择），特征变化【连续特征主要改变分布或者压缩特征空间，在sklearn中常用的方法有StandardScaler,MinMaxScaler,RobusterScaler,Normalizer-规范化缩放；其次还有针对类别特证的变化：虚拟变量（当特证有 m个不同类别时，get_dummies将得到m-1二进制特征）和one-Hot编码，可以通过Pandas的方法get_dummies进行转换；还有针对数值型特征的离散化处理方法—**分桶**，主要针对特征数量级跨度较大的特征】，特征构建（创新特征如RMF）的三个基本思路，来提升模型的效率
+13,通过特征选择（除了数据分析观察，可以通过sklearn的SelectBest自动选择特征的方法来自动选择特征，除了SelectBest,还有RFE工具，SelectFromModel工具，SequentialFeature selector工具等。最后还可以通过PCA,LDA的降维算法进行数据特征选择），特征变化【连续特征主要改变分布或者压缩特征空间，在sklearn中常用的方法有StandardScaler,MinMaxScaler,RobusterScaler,Normalizer-规范化缩放；其次还有针对类别特证的变化：虚拟变量（当特证有 m个不同类别时，get_dummies将得到m-1二进制特征）和one-Hot编码，可以通过Pandas的方法get_dummies进行转换；还有针对数值型特征的离散化处理方法—**分桶**，主要针对特征数量级跨度较大的特征】，特征构建（创新特征如RMF）的三个基本思路，来提升模型的效率.
+
+--补充：特征选择，特征相关性分析也是一个重要的方法。
 
 \14. 防止过拟合的方法，除了增加数据量，特征工程及选择简单的模型（缇卡姆法则）针对决策树的剪枝方法及线性回归的正则化方法（L1正则化的Lasso回归和L2正则化的Ridge岭回归）
 
